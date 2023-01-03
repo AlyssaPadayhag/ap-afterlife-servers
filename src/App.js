@@ -1,4 +1,5 @@
-import './App.scss';
+import "./App.scss";
+import Navigation from "./Navigation/Navigation";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <i class="fa-brands fa-twitter"></i>
         </div>
       </header>
+      <Navigation />
     </div>
   );
 }
